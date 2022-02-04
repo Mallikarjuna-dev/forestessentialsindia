@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/bespoke.css">
+    <link rel="icon" type="image/x-icon" href="https://images.forestessentialsindia.com/pub/media/favicon/stores/2/favicon.png">
+    <title>Bespoke Services</title>
+</head>
+<body style="margin: 0;">
+    <!-- HEADER -->
+        <div class="main--Navbar">
+            <!-- NOTIFY DIV -->
+            <div class="ads">
+                <div class="notify">COMPLIMENTARY SAMPLES ON EVERY PURCHASE!</div>
+                <div class="notify">WE DELIVER ACROSS INDIA &amp; INTERNATIONALLY.</div>
+                <div class="notify">RECEIVE COMPLIMENTARY <a href="/shop.html"><u>GIFT BOXES</u></a> UP TO ₹6500/-</div>
+                
+            </div>
+
+            <!--NAVBAR MAIN -->
+            <div class="navbar">
+                <!-- IMAGE NAVBAR 1-->
+                <div class="navbar--1">
+                    <div class="submenu--left">
+                        <div class="Nav-bar" onclick="Navbar()">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="submenu-mg">
+                            <a href="#search" id="search"><img src="..\img\search-icon.png"></a>
+                        </div>
+                        <div class="margin-right mg-medium">STORES</div>
+                        <div>
+                            <select class="INR">
+                                <option>INR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submenu--center">
+                        <a href="../index.html">
+                            <picture>
+                                <source srcset="../img/mobile-logo.png" media="(max-width:540px)">
+
+                                <img class="submenu--logo" src="../img/FE-Logo_1.webp">  
+                            </picture>
+                            
+                        </a>
+                    </div>
+                    <div class="submenu--right">
+                        <div class="nav-icon mg-medium">
+                            <a href="Signup.html">
+                                <span>account</span>
+                                <i class="fa fa-user-circle-o"></i>
+                            </a>
+                        </div>
+                        <div class="nav-icon mg-medium">
+                            <a href="wishlist.html">
+                                <span>wishlist</span>
+                                <i class='fa fa-heart-o'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="cart.html" >
+                            
+                                <div class="cart">
+                                    <img src="../img/cart-icon.png" >
+                                    <span>0</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- IMAGE NAVBAR 2 LINKS-->
+                <div class="navbar--2">
+                    <ul class="navbar_nav">
+                        <li class="nav-item">
+                            <!--DISPLAY ONLY MOBILE PHONE RESPONSIVE --->
+                            <div class="responsive_div">
+                                <div class="responsive_link">
+                                    <img src="https://images.forestessentialsindia.com/pub/media/new-fe.png" width="15%">
+                                    <a href="#" >LOGIN/REGISTER</a>
+                                </div>
+
+                                <div class="responsive--serach">
+                                    <input type="text" placeholder="search the web store" class="search_input search_resp">
+                                    <img src="..\img\search-icon.png">
+                                </div>
+                            </div>  
+                        </li>
+                        <li class="nav-item comment-tag res-icon-1">
+                            <img src="../img/new.jpg" >
+                            <a href="bespoke.html" class="nav-link">bespoker services</a>
+                        </li>
+                        <li class="nav-item res-icon-2">
+                            <a href="Facial.html" class="nav-link">facial care</a>
+                        </li>
+                        <li class="nav-item res-icon-3">
+                            <a href="body-care.html" class="nav-link" >body care</a>
+                        </li>
+                        <li class="nav-item res-icon-4">
+                            <a href="Hair.html" class="nav-link" >hair care</a>
+                        </li>
+                        <li class="nav-item res-icon-5">
+                            <a href="makeup.html" class="nav-link" >makeup</a>
+                        </li>
+                        <li class="nav-item res-icon-6">
+                            <a href="wellness.html" class="nav-link" >wellness</a>
+                        </li>
+                        <li class="nav-item festivel-tag res-icon-7">
+                            <img src="../img/festival.jpg" >
+                            <a href="Gifting.html" class="nav-link" >gifting</a>
+                        </li>   
+                        <li class="nav-item res-icon-8">
+                            <a href="rituals.html" class="nav-link" >rituals</a>
+                        </li>
+                        <li class="nav-item res-icon-8">
+                            <a href="collection.html" class="nav-link" >collections</a>
+                        </li>
+                        <li class="nav-item res-icon-9">
+                            <a href="discover.html" class="nav-link" >discover</a>
+                        </li>
+                    </ul>
+                    <!--ONLY SHOWS IN MOBILE PHONE -->
+                    <img class="cross--icon__res--hide" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" onclick="resCrossIcon()">
+
+                </div>
+
+                <!--ONCLIK SEARCH BAR SHOW --->
+                <div class="search" id="hide">
+                    <div class="search--div">
+                        <input type="text" placeholder="search the web store" class="search_input">
+                        <img src="..\img\search-icon.png">
+                    </div>
+                    <img class="cross--icon" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" id="show">
+                </div>
+            </div>
+        </div>
+
+	
+    
+    <!-- THE BESPOKE SERVICE CONTENT PART  -->
+    <div id="main_content_bespoke">
+
+        <!-- IMAGE AND INSTRUCTION BELOW NAVIGATION BAR -->
+        <div style="background-color: white;">
+            <div id="bckgrd_img_below_nav"></div>
+        
+            <!-- SHORT INTRODUCTION OF BESPOKE SERVICES  -->
+            <div id="besoke_short_intro_div">
+                <p>ONE STEP CLOSER TO YOU</p>
+                <div id="bespke_short_intro_main">
+                    <div><h2>All Your Beauty Concerns, Answered!</h2></div>
+                    <div>
+                        Did you ever want to speak to someone who could responsibly answer your skin and hair concerns?
+                        <br>
+                        <br>
+                        Well now you can! With our NEW bespoke service, a Certified Ayurvedic Doctor will be on call to personally answer your queries every day of the week, Monday to Friday 9 am to 8 pm and Saturday to Sunday 11 am to 8 pm. Tell us your beauty concerns and get expert recommendations on products, rituals and lifestyle changes most suitable for your unique skin and hair characteristics.
+                        <br>
+                        <br>
+                        To schedule your call, please fill in a form with some basic information about yourself and pick a time slot convenient for you.
+                        <br>
+                        <br>
+                        We will charge a nominal fee of INR 500/- for this consultation which will be redeemable as a coupon on any online purchase you make post the call.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- APOINTMENT FORM -->
+        <div id="besopke_application_form_div">
+            <h1 id="appointment_form_heading">Please fill out your Details</h1>
+            <hr style="margin-left: 5%; margin-right: 5%;" >
+
+            <!-- FORM FOR APPOINTMENT -->
+                <table class="appointment_myForm">
+                    <tbody>
+                        <tr>
+                            <th class="appointment_text_label">Title*</th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">Mr.</label></th>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">Mrs.</label></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="appointment_myForm">
+                    <tbody>
+                        <tr>
+                            <th class="appointment_text_label">Name*</th>
+                        </tr>
+                        <tr>
+                            <th><input type="text" class="appointment_input_width_heigth appointment_input_other"></th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_text_label">Email-id*</th>
+                        </tr>
+                        <tr>
+                            <th><input type="email" class="appointment_input_width_heigth appointment_input_other"></th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_text_label">Phone Number*</th>
+                        </tr>
+                        <tr>
+                            <th><input type="number" class="appointment_input_width_heigth appointment_input_other"></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="appointment_myForm">
+                    <tbody>
+                        <tr>
+                            <th class="appointment_text_label">Age Group*</th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">12-21</label></th>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">21-35</label></th>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">35-50</label></th>
+                            <th class="appointment_input_width_heigth"><input type="radio" value="mr"><label class="appointment_text_label">50+</label></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="appointment_myForm">
+                    <tr>
+                        <th class="appointment_text_label">Your Primary Concern*</th>
+                    </tr>
+                    <tr>
+                        <th class="appointment_input_width_heigth"><input type="radio"><label class="appointment_text_label">Skin Care</label></th>
+                        <th class="appointment_input_width_heigth"><input type="radio"><label class="appointment_text_label">Hair Care</label></th>
+                    </tr>
+                </table>
+                <table class="appointment_myForm">
+                    <tbody>
+                        <tr>
+                            <th class="appointment_text_label">Please Elaborate:</th>
+                        </tr>
+                        <tr>
+                            <th><textarea placeholder="Acne-Prone skin, Sensitive & dry skin, Frizzy Hair, Hair-fall, etc." id="appointment_textarea" cols="65" rows="5" style="border: 1px solid black; background-color: rgba(255, 255, 255, 0.5); color: black; "></textarea></th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_text_label">Date of Appointment*</th>
+                        </tr>
+                        <tr>
+                            <th><input type="date" class="appointment_input_width_heigth appointment_input_other"></th>
+                        </tr>
+                        <tr>
+                            <th class="appointment_text_label">Time (Indian Standard Time)*</th>
+                        </tr>
+                        <tr>
+                            <th><input type="time" placeholder="" class="appointment_input_width_heigth appointment_input_other"></th>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="margin: 6%; color: rgb(117, 2, 2); margin-bottom: 0;">*Required Fields</p>
+                <button id="pay_and_schedule_button">PAY & SCHEDULE</button>
+                <p style="width: 85%; margin: auto; font-size: large; margin-bottom: 5%;">This telephonic interaction comes with a small fee of INR 500/- which will be redeemable as a coupon when you choose to purchase a product from our website.</p>
+        </div>
+
+        <!-- BELOW FORM CONTENT  -->
+        <div style="background-color: white;">
+
+            <!-- 3 STEP SECTION  -->
+            <div id="besopke_step_involved">
+                <h2 style="text-align: center; font-weight: lighter;">What are the steps involved?</h2>
+                <div id="below_form_step">
+                    <div>
+                        <h2 style="font-weight: lighter;">STEP 1</h2>
+                        <img src="https://images.forestessentialsindia.com/pub/media/ayurvedic-doctor-interaction/Fill-form-icon.png" width="120px" height="110px">
+                        <h2 style="font-weight: lighter;">
+                            FILL THE
+                            <br>
+                            APPOINTMENT FORM
+                        </h2>
+                        <p style="text-align: left; font-weight: lighter; margin-left: 3%;">Share your details with us and pick a date and time suitable for you.</p>
+                    </div>
+                    <div>
+                        <h2 style="font-weight: lighter;">STEP 2</h2>
+                        <img src="https://images.forestessentialsindia.com/pub/media/ayurvedic-doctor-interaction/Ayurveda-expert-icon.png" width="120px" height="110px">
+                        <h2 style="font-weight: lighter;">
+                            OUR AYURVEDIC
+                            <br>
+                            DOCTOR WILL CALL YOU
+                        </h2>
+                        <p style="text-align: left; font-weight: lighter; margin-left: 3%;">During the telephonic interaction we analyse your concerns, your history and characteristics, and make informed recommendations to address your concerns.</p>
+                    </div>
+                    <div>
+                        <h2 style="font-weight: lighter;">STEP 3</h2>
+                        <img src="https://images.forestessentialsindia.com/pub/media/ayurvedic-doctor-interaction/product-recommendations.png" width="120px" height="110px">
+                        <h2 style="font-weight: lighter;">
+                            PRODUCT RECOMMENDATIONS
+                            <br>
+                            AND VOUCHER
+                        </h2>
+                        <p style="text-align: left; font-weight: lighter; margin-left: 3%;">You will receive a bespoke set of product recommendations that will address your primary concerns along with a coupon voucher worth INR 500/- that you can redeem on Forest Essentials website within one week of your appointment.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ  -->
+            <div style="background-color: #f9f9f9;">
+                <div id="bespoke_faq">
+                    <h5>FREQUENTLY ASKED QUESTIONS</h5>
+                    <hr style="width: 15px; margin-left: 0;">
+                    <h3>FAQs</h3>
+                    <br>
+                    <strong>Q: Is this interaction complimentary?</strong>
+                    <br>
+                    A: This interaction comes with a small fee of INR 500/- which will be redeemable as a coupon when you choose to purchase any of our products on Forest Essentials website within one week of your consult call.
+                    <br>
+                    <br>
+                    <strong>Q: What is the primary mode of interaction?</strong>
+                    <br>
+                    A: The primary mode will be a telephonic conversation with our Ayurvedic Doctor. Once you have scheduled your call, you will receive a confirmation through email.
+                    <br>
+                    <br>
+                    <strong>Q: How long will the interaction be for?</strong>
+                    <br>
+                    A: It will be a 15-minute-long telephonic interaction.
+                    <br>
+                    <br>
+                    <strong>Q: What are the available days and timings for the interaction?</strong>
+                    <br>
+                    A: Depending on the Doctor's availability, telephonic interactions are available throughout the week. Please check the calendar for available slots.
+                    <br>
+                    <br>
+                    <strong>Q: What languages can the interaction be done in?</strong>
+                    <br>
+                    A: Our Ayurvedic Doctors are fluent in Hindi and English.
+                    <br>
+                    <br>
+                    <strong>Q: Where can I share feedback in case I am dissatisfied with the interaction?</strong>
+                    <br>
+                    A: To help us serve you better in the future we would love to hear about your experience with our Ayurvedic Doctors. You can write to us at service@forestessentialsindia.com or call us at +91 8010200666.
+                    <br>
+                    <br>
+                    <strong>Q: How can I reschedule my appointment?</strong>
+                    <br>
+                    A: You will have the option to reschedule your appointment on the confirmation email we send to you after you have scheduled your first appointment.
+                    <br>
+                    <br>
+                    <strong>Q: How do I book myself a follow-up interaction?</strong>
+                    <br>
+                    A: You can follow the same 3-step process to book yourself a follow-up interaction.
+                    <br>
+                    <br>
+                    <strong>Q: Do I have to purchase the products suggested to me to redeem the coupon?</strong>
+                    <br>
+                    A: The coupon is redeemable against the purchase of any product listed on the Forest Essentials website.
+                    <br>
+                    <br>
+                    <strong>Q: What do I do in case I face issues while redeeming my coupon?</strong>
+                    <br>
+                    A: You can write to us at service@forestessentialsindia.com and our support team will resolve your issue at the earliest.
+                    <br>
+                    <br>
+                    <strong>Q: If I return the product I have purchased post my consult, will the voucher value be refunded too?</strong>
+                    <br>
+                    A: The voucher can be redeemed only once within one week of your consultation call and cannot be refunded in case you choose not to make a purchase. In the event you purchase products and decide to return them, the amount refunded will be the difference after applying the INR 500 voucher. Also, in case you purchase a product of a value lower than INR 500, the difference in the voucher will elapse.
+                </div>
+            </div>
+
+            <!-- CUSTOMER REVIEW SECTION  -->
+            <div style="width: 100%; margin-top: 5%;">
+                <div  id="bespoke_customer_review">
+                    <h5>TAILOR MADE FOR YOUR CONCERNS</h5>
+                    <hr style="width: 15px; margin-left: 0;">
+                    <h2>What our customers have to say</h2>
+                </div>
+
+                <!-- CUSTOMER REVIEW  -->
+                <div id="bespoke_customer_content_div">
+                    <div id="bespoke_customer_content">
+                        <div>
+                            <img src="https://www.pngall.com/wp-content/uploads/4/Quotation-Symbol-PNG.png">
+                            <div class="customer_review_on_bespoke_service">"This is an excellent new feature!!! I spoke to the Forest Essentials Senior Ayurveda Doctor. First, she spent time understanding my hair concern (pre-mature greying) properly and patiently, she asked about my current hair care regime, the products I use and even my food and lifestyle habits. Post which she made informed and customized recommendations for me, these were a mix of product suggestions and a few lifestyle changes that can help me with my greying. Extremely satisfied and excited to try the new products."</div>
+                            <h5 class="customer_name_title">CHETAN, AGRA</h5>
+                            <p class="customer_year">2021</p>
+                        </div>
+                        <div>
+                            <img src="https://www.pngall.com/wp-content/uploads/4/Quotation-Symbol-PNG.png">
+                            <div class="customer_review_on_bespoke_service">"I was looking for anti-acne products on the Forest Essentials website when I stumbled upon their new Ayurvedic Doctor Consultation feature. I instantly booked my appointment for the next day. It was a 15-minute call with their senior Ayurveda doctor, she understood all my concerns properly and patiently, and decoded the plausible cause of my acne basis my lifestyle habits, family history etc. She then gave me a list of recommendations, these were not only products suggestions, they had a more holistic approach and I was also given recommendations on healthy lifestyle changes and food tips that would help alleviate my acne. " </div>
+                            <h5 class="customer_name_title">TANYA, MUMBAI</h5>
+                            <P class="customer_year">2021</P>
+                        </div>
+                        <div>
+                            <img src="https://www.pngall.com/wp-content/uploads/4/Quotation-Symbol-PNG.png">
+                            <div class="customer_review_on_bespoke_service">"I absolutely love the new Doctor Consultation feature, it’s an excellent service and all in the comfort of your home. My interaction with the doctor was super smooth, she correctly understood all my concerns and was extremely patient with all the questions I had. I had called in for ‘Dull Skin’, and she helped me create a daily facial care regime and made two product recommendations out of which one I bought- Sanjeevani Beauty Elixir, it has been working wonders on my skin. I also love how they give you a complimentary 500 rupees voucher which you can avail while purchasing your product. If you are going the natural way and looking for a quick derma consult with personalized recommendations, go for this! "</div>
+                            <h5 class="customer_name_title">VEDIKA, GHAZIABAD</h5>
+                            <P class="customer_year">2021</P>
+                        </div>
+                        <div>
+                            <img src="https://www.pngall.com/wp-content/uploads/4/Quotation-Symbol-PNG.png">
+                            <div class="customer_review_on_bespoke_service">"I booked myself this Ayurvedic Doctor Consultation to get an effective treatment for post Covid hair loss- a concern I had been trying to treat for a long time. I interacted with their senior doctor, she heard me patiently, tried to understand my concern in depth and based on the information I shared with her on my lifestyle, daily routine etc., she recommended a weekly hair care regime to me which incorporated some new products from FE and some products that I was already using (I loved how they weren’t just pushing me to purchase more products). I have been following the recommended ritual for 2 weeks now and I have seen remarkable results. "</div>
+                            <h5 class="customer_name_title">HARNOOR, NEW DELHI</h5>
+                            <P class="customer_year">2021</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- THE FOOTER PART -->
+    <div id="footer_body_bespoke_care">
+        
+    <div id="newsletter_image_container">
+        <div id="newslatter_text_container">
+            <h2>Newslatter</h2>
+            <p>
+                Get insider access for limited edition offers, new launches, insights on Ayurvedic skincare, beauty tips and more!
+            </p>
+            <div id="input_fleld_div">
+                <input class="inputfield" type="text" placeholder="NAME">
+                <input class="inputfield" type="text" placeholder="EMAIL">
+                <button>SUBSCRIBE</button>
+                <br><br>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox">
+                    I have read and agree to Forest Essentials
+                    <a  href="#">Terms of Conditions</a>.
+            </div>
+        </div>
+    </div>
+    <div  id="service_charac">
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/100-Ayurvedic.png" alt="" >
+            <h2>100% Ayurvedic</h2>
+            <p>Our products are certified 100% natural and inspired by Ayurveda recipes by the ministry of AYUSH. We conform to the highest quality control standards.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/Plant-Based.png" alt="" >
+            <h2>Plant Based</h2>
+            <p>We harness the power of plant extracts as a part of our commitment to using naturally effective and sustainably sourced ingredients to achieve superior results organically.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/free-shipping.png" alt="" >
+            <h2>Free shipping</h2>
+            <p>On all international orders of INR 9,999/- and above, and on all domestic orders of INR 475/- and above.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/Complimentary-samples.png" alt="" >
+            <h2>Complimentary Samples</h2>
+            <p>Enjoy complimentary samples on your orders.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <h4>SHOP</h4>
+            <ul>
+                <li><a href="">MAKEUP</a></li>
+                <li><a href="">FACIAL CARE</a></li>
+                <li><a href="">BODY CARE</a></li>
+                <li><a href=""HAIR CARE></a></li>
+                <li><a href="">MEN'S CARE</a></li>
+                <li><a href="">MOTHER & BABY CARE</a></li>
+                <li><a href="">WELLNESS</a></li>
+                <li><a href="">GIFTING</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>ABOUT</h4>
+            <ul>
+                <li><a href="">OUR PHILOSOPHY</a></li>
+                <li><a href="">SOCIAL RESPONSIBILITY</a></li>
+                <li><a href="">MEDIA & PRESS</a></li>
+                <li><a href="">POLICIES</a></li>
+                <li><a href="">TERMS</a></li>
+                <li><a href="">FAQS</a></li>
+                <li><a href="">SOUNDARYA CLUB FAQS</a></li>
+                <li><a href="">CAREERS</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="">MY ACCOUNT</a></li>
+                <li><a href="">SOUNDARYA CLUB SIGN IN</a></li>
+                <li><a href="">AYURVEDIC DOCTOR INTERACTION</a></li>
+                <li><a href="">CUSTOMIZE A CREAM</a></li>
+                <li><a href="">STORES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">OUR INGREDIENTS</a></li>
+                <li><a href="">FOREST ESSENTIALS UK</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>SHOP</h4>
+            <p>Email:<br><a class="a" href="">service@forestessentialsindia.com</a></p>
+            <p>Phone:<br><a class="a" href="">+91-8010200666</a></p>
+            <p><a class="a" href="">Contact Us</a></p>
+            <h4>FOLLOW</h4>
+            <ul>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>  
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </ul>
+        </div>
+    </div>
+    <div id="copy_right"> 
+        <div>
+            <span>PAYMENT METHODS</span>
+            <img src="https://images.forestessentialsindia.com/pub/media/payment-method-new.png" alt="" width="500px">
+        </div>
+        <div>
+            <span>© Forest Essentials</span>
+        </div>
+    </div> 
+    </div>
+
+</body>
+</html>
+<script src="../js/header.js"></script>
+<script src="../js/bespoke.js"></script>

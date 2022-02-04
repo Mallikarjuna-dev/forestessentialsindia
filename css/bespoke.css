@@ -1,0 +1,785 @@
+@font-face{
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+        local('MaterialIcons-Regular'),
+        url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+        url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+        url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons{
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    margin-top: 10px;
+    cursor: pointer;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+
+
+/* MAIN CONTENT  */
+
+/* MAIN CONTENT DIV (GROUP) */
+#main_content_bespoke{
+    background-image: url('https://images.forestessentialsindia.com/pub/media/ayurvedic-doctor-interaction/adc-background.jpg');
+   /* background-position: center;*/
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+/* IMAGE BELOW NAV BAR  */
+#bckgrd_img_below_nav{
+    border: 1px solid transparent;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.forestessentialsindia.com/pub/media/mageplaza/bannerslider/banner/image/c/o/consultation-banner-3.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0;
+}
+
+/* SHORT INTRODUCTION OF BESPOKE SERVICES */
+#besoke_short_intro_div{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* BESPOKE SHORT INTRODUCTION MAIN CONTENT  */
+#bespke_short_intro_main{
+    display: flex;
+    padding-bottom: 70px;
+}
+#bespke_short_intro_main>div:nth-child(1){
+    width: 250%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* APPOINTMENT FORM  */
+.appointment_myForm{
+    text-align: left;
+    padding-left: 3%;
+    font-size: larger;
+    font-weight: lighter;
+}
+/* APPOINTMENT FORM DIV */
+#besopke_application_form_div{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+#appointment_form_heading{
+    text-align: center;
+    font-weight: lighter;
+}
+.appointment_input_width_heigth{
+    width: 500px;
+    height: 30px;
+}
+.appointment_input_other{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* APPOINTMENT FORM LABEL */
+.appointment_text_label{
+    font-size: large;
+    color: rgb(46, 46, 46);
+}
+
+/* PAY AND SCHEDULE BUTTON */
+#pay_and_schedule_button{
+    font-size: larger;
+    width: 80%;
+    padding: 10px;
+    margin: 5%;
+    margin-left: 6%;
+    font-weight: lighter;
+    background-color: transparent;
+    border: 1px solid black;
+}
+#pay_and_schedule_button:hover{
+    background-color: black;
+    color: white;
+}
+#pay_and_schedule_button:active{
+    background-color: black;
+    color: white;
+}
+
+
+/* BELOW FORM CONTENT */
+#besopke_step_involved{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 5%;
+}
+
+
+/* 3 BOX OF STEPS  */
+#below_form_step{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+}
+#below_form_step>div{
+    width: 35%;
+    height: 400px;
+    text-align: center;
+}
+#below_form_step>div:nth-child(1){
+    background-color: #f9f9f9;
+}
+#below_form_step>div:nth-child(3){
+    background-color: #f9f9f9;
+}
+
+/* FAQ SECTION */
+#bespoke_faq{
+    width: 80%;
+    margin: auto;
+    padding-top: 5%;
+    margin-top: 5%;
+    color: rgb(109, 109, 109);
+}
+
+/* CUSTOMER REVIEWS SECTION */
+#bespoke_customer_review{
+    width: 80%;
+    margin: auto;
+}
+
+/* CUSTOMER CONTENT */
+#bespoke_customer_content_div{
+    width: 100%;
+    border: 1px solid transparent;
+    height: 500px;
+   /* margin-bottom: 100px;*/
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
+    background-position: center;
+    background-size: cover;
+    margin-top: 25px;
+}
+#bespoke_customer_content{
+    border: 1px solid transparent;
+    width: 80%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    justify-content: space-between;
+}
+.customer_review_on_bespoke_service{
+    width: 95%;
+    margin: auto;
+    overflow-x: hidden;
+    height: 150px;
+}
+#bespoke_customer_content>div{
+    border: 1px solid transparent;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 24%;
+}
+#bespoke_customer_content>div>img{
+    opacity: 0.5;
+    width: 120px;
+    height: 100px;
+    margin-left: 25%;
+}
+
+/* CUSTOMER NAME AND YEAR */
+.customer_name_title{
+    margin-bottom: 0;
+    margin-left: 5%;
+}
+.customer_year{
+    margin-top: 0;
+    margin-left: 5%;
+}
+
+/* THE FOOTER PART */
+/*_*******************************************************-------------newlatter-----------*************************************************** */ 
+#footer_body_bespoke_care{
+    margin: 0px;
+    color:black;
+    background-color: white;
+}
+#newsletter_image_container{
+    background-image: url(https://images.forestessentialsindia.com/pub/media/cms_images/newsletter-bg.jpg);
+    text-align: center;
+    height: 250px;
+    background-size: cover;
+    padding: 98px 0px;
+    margin-top: 60px;
+}
+#newslatter_text_container{
+    width: 700px;
+    height: 300px;
+    color: white;
+    margin: auto;
+} 
+#newslatter_text_container p{
+    border: 1px solid transparent;
+    line-height: 35px;
+    font-size: 19px;
+    width: 90%;
+    letter-spacing: .5px;
+}
+.inputfield{
+    border: none;
+    padding: 14px 27px;
+    font-size: 12px;
+    height: 20px;
+    font-family:calibri;
+    width: 210px;
+    letter-spacing: 3px;
+}
+#newsletter_image_container button{
+    background-color: #d2ab67;
+    border: 1px solid #d2ab67;
+    color: white;
+    padding: 15px 15px;
+    font-size: 13px;
+    width: 150px;
+    height: 48.5px;
+    letter-spacing: 3px;
+}
+#newsletter_image_container button:hover{
+    background-color: black;
+    border-color: white;
+}
+#newslatter_text_container a{
+    color: white;
+    text-decoration: none;
+}
+/* _____________________________________________________newslatter-css-end_________________________________________________________________ */
+
+
+/* ******************************************--------services-characteristics-css-start---------******************************************* */
+#footer,#service_charac{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    font-family: calibri;
+    color: rgb(85, 80, 80);
+    margin-top: 100px;
+}
+#footer>div,#service_charac div{
+    height: 300px;
+    width: 23%;
+}
+#service_charac div{
+    height: 230px;
+    letter-spacing: 1px;
+}
+#service_charac img{
+    height:100px ;
+    width:100px;
+}
+#service_charac h2{
+    margin-top: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+#service_charac p{
+    font-size: 14px;
+    line-height: 27px;
+    width: 100%;
+}
+/* _____________________________________________________services-characteristics-css-end_________________________________________________________________ */
+
+
+/*****************************************************--------- footer css-start--------*****************************************************/
+    /* margin: 30px auto; */
+/* } */
+#footer ul{
+    list-style: none;
+}
+#footer h4,#footer li{
+    font-size: 11px;
+    line-height: 36px;
+    letter-spacing: 2.8px;
+    color: #000;
+}
+#footer h4{
+    border-top: 1px solid #e8e8e8;
+    margin: 80px 0 30px;
+    padding-top: 30px;
+    font-weight: normal;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .a{
+    color:#000;
+    border-bottom: 1px solid #8d8080;
+    padding-bottom: 3px;
+}
+#footer p{
+    font-size: 16px;
+}
+#footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+.fa{
+    width: 25px;
+    height: 25px;
+}
+/*__________________________________________________________footer-css-end______________________________________________________________________*/
+
+
+/* **************************************************----------copyright-css-start------------***************************************************/
+#copy_right{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 250px;
+}
+#copy_right>div{
+    padding: 0px 10px;
+    width: 48%;
+    border: 1px solid transparent;
+}
+#copy_right span{
+    letter-spacing: 2.8px;
+    display: block;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    font-size: 13px;
+    border-top: 1px solid #e8e8e8;
+}
+/* _______________________________________________________________copyright-css-end_________________________________________________________ */
+
+
+
+/* MEDIA QUERY SECTION */
+
+/* PHONE SCREEN SCREEN */
+@media only screen and (min-width: 0px) and (max-width: 375px){
+    /* MAIN CONTENT  */
+    #main_content_bespoke{
+        background-color: white;
+        background-image: none;
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* TOP BAKCGROUND IMAGE */
+    #bckgrd_img_below_nav{
+        background-image: url(https://images.forestessentialsindia.com/pub/media/mageplaza/bannerslider/banner/image/c/o/consultation_banner_2.jpg);
+        background-size: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+
+    /* SHORT INTRO */
+    #bespke_short_intro_main{
+        display: block;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    #bespke_short_intro_main>div:nth-child(1){
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /* APPOINTMENT FORM */
+    #besopke_application_form_div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        margin-top: 5%;
+        background: linear-gradient(#FFB6C1, #F0FFFF, #F0F8FF, #F8F8FF, #FFFFF0, #FFF0F5, #F5FFFA, #FFA07A);
+    }
+    .appointment_input_width_heigth{
+        width: 70px;
+        height: 30px;
+    }
+    .appointment_input_other{
+        width: 250px;
+        border: 1px solid black;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    #appointment_textarea{
+        width: 70%;
+    }
+
+    /* PAY AND SCHEDULE BUTTON */
+    #pay_and_schedule_button{
+        font-size: larger;
+        font-weight: lighter;
+        width: 70%;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+
+    /* 3 STEPS CONTENT  */
+    #besopke_step_involved{
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 5%;
+    }
+    #below_form_step{
+        width: 100%;
+        margin-top: 5%;
+        display: block;
+    }
+    #below_form_step>div{
+        width: 100%;
+        height: 325px;
+        margin-top: 5%;
+        display: block;
+        margin-bottom: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* FAQ */
+    #bespoke_faq{
+        width: 97%;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        color: rgb(109, 109, 109);
+    }
+
+    /* CUSTOMER REVIEW */
+    #bespoke_customer_review{
+        width: 97%;
+        margin: auto;
+    }
+
+    #bespoke_customer_content_div{
+        width: 100%;
+        background-image: none;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+    }
+    #bespoke_customer_content{
+        border: 1px solid transparent;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        justify-content: space-between;
+    }
+    #bespoke_customer_content>div{
+        border: 1px solid transparent;
+        display: block;
+        background-image: url(https://images.unsplash.com/photo-1517764415784-a0a8e4e659e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGxlYXZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        width: 90%;
+        margin: auto;
+        margin-bottom: 7px;
+    }
+    #bespoke_customer_content>div>img{
+        opacity: 0.5;
+        width: 120px;
+        height: 100px;
+        margin-left: 25%;
+    }
+    .customer_review_on_bespoke_service{
+        height: 100px;
+    }
+
+    /* CUSTOMER NAME AND YEAR */
+    .customer_name_title{
+        margin-bottom: 0;
+        margin-left: 5%;
+    }
+    .customer_year{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+
+    /* THE FOOTER PART */
+    #newsletter_image_container{
+        height: 450px;
+    }
+    #newslatter_text_container{
+        width: 100%;
+    }
+    #input_fleld_div input{
+        margin-bottom: 20px;
+    }
+    #service_charac{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #service_charac div{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    #service_charac>div:last-child{
+        height: 100px;
+    }
+    #footer{
+        display: grid;
+        width: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,400px);
+        grid-gap: 20px;
+    }
+    #footer div{
+        width: 374px;
+    }
+    #footer>div:last-child{
+        height: 100px;
+    }
+    #copy_right{
+        border: 1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    #copy_right>div{
+        margin-top:20px ;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #copy_right span{
+        border: none;
+        margin: auto;
+    }
+    #copy_right img{
+        width: 350px;
+    }
+}
+
+
+
+/* TABLET SCREEN */
+@media only screen and (min-width: 376px) and (max-width: 768px){
+    /* MAIN CONTENT  */
+    #main_content_bespoke{
+        background-color: white;
+        background-image: url(https://images.unsplash.com/photo-1553688738-87731e88e65d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGxlYXZlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+        background-position: center;
+        background-size: cover;
+    }
+
+    /* TOP BAKCGROUND IMAGE */
+    #bckgrd_img_below_nav{
+        background-image: url(https://images.forestessentialsindia.com/pub/media/mageplaza/bannerslider/banner/image/c/o/consultation_banner_1_1.jpg);
+        background-size: 100%;
+        background-position: right;
+        background-repeat: no-repeat;
+        height: 150px;
+    }
+
+    /* SHORT INTRO */
+    #bespke_short_intro_main{
+        display: block;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    #bespke_short_intro_main>div:nth-child(1){
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    /* APPOINTMENT FORM */
+    #besopke_application_form_div{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90%;
+        margin: auto;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .appointment_input_width_heigth{
+        width: 250px;
+        height: 30px;
+    }
+    .appointment_input_other{
+        width: 450px;
+        border: 1px solid black;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    #appointment_textarea{
+        width: 90%;
+    }
+
+    /* PAY AND SCHEDULE BUTTON */
+    #pay_and_schedule_button{
+        font-size: larger;
+        font-weight: lighter;
+        width: 70%;
+        background-color: transparent;
+        border: 1px solid black;
+    }
+
+    /* 3 STEPS CONTENT  */
+    #besopke_step_involved{
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 5%;
+    }
+    #below_form_step{
+        width: 100%;
+        margin-top: 5%;
+        display: block;
+    }
+    #below_form_step>div{
+        width: 75%;
+        margin: auto;
+        height: 325px;
+        margin-top: 5%;
+        display: block;
+        margin-bottom: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    /* FAQ */
+    #bespoke_faq{
+        width: 90%;
+        margin: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        color: rgb(109, 109, 109);
+    }
+
+    /* CUSTOMER REVIEW */
+    #bespoke_customer_review{
+        width: 90%;
+        margin: auto;
+    }
+
+
+    /* THE FOOTER PART  */
+    #bespoke_customer_content_div{
+        width: 100%;
+        background-image: none;
+        background-color: white;
+        background-position: center;
+        background-size: cover;
+    }
+    #bespoke_customer_content{
+        border: 1px solid transparent;
+        width: 100%;
+        display: block;
+        margin: auto;
+        margin-top: 5%;
+        justify-content: space-between;
+    }
+    #bespoke_customer_content>div{
+        border: 1px solid transparent;
+        display: block;
+        background-image: url(https://media.istockphoto.com/photos/defocused-lights-background-picture-id1252982760?b=1&k=20&m=1252982760&s=170667a&w=0&h=vA-AIpT5J7seTcKZCGv_WO5wDRt5ESVf3_3aPIoAmPk=);
+        width: 90%;
+        margin: auto;
+        margin-bottom: 7px;
+        background-size: cover;
+    }
+    #bespoke_customer_content>div>img{
+        opacity: 0.5;
+        width: 120px;
+        height: 100px;
+        margin-left: 25%;
+    }
+    .customer_review_on_bespoke_service{
+        height: 100px;
+    }
+
+    /* CUSTOMER NAME AND YEAR */
+    .customer_name_title{
+        margin-bottom: 0;
+        margin-left: 5%;
+    }
+    .customer_year{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+
+    /* THE FOOTER PART */
+    #newslatter_text_container{
+        width: 100%;
+    }
+    #service_charac{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #service_charac div{
+
+        width: 48%;
+        height: 320px;
+    }
+    #service_charac>div:nth-child(3),#service_charac>div:nth-child(4){
+        height: 200px;
+    }
+    #footer{
+        border: 1px solid transparent;
+        display: grid;
+        margin: auto;
+        width: 80%;
+        grid-template-rows: 480px 480px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #copy_right{
+        border: 1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+        margin: 310px auto 10px ;
+        margin-left: 28%;
+    }
+    #copy_right>div{
+        margin-top:20px ;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #copy_right span{
+        border: none;
+    }
+
+}

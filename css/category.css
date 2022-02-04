@@ -1,0 +1,438 @@
+/***********************************************---------Category-css-start--------***************************************/
+
+body{
+    margin: 0px;
+    background-color: white;
+    color: black;
+    overflow-x: hidden;
+}
+.category_image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#body-care_image_height{
+    height: 335px;
+    background-image: url(https://images.forestessentialsindia.com/pub/media/catalog/category/2_Body_Care_MG_7103_final_2880x640-min-min.jpg);
+}
+#collectionS_image_height{
+    height: 400px;
+    background-image: url(https://images.forestessentialsindia.com/pub/media/catalog/category/6_Collections_2880-x-840-Domestic.jpg);
+}
+.category_name{
+    background-color: rgba(0,0,0,0.5);
+    width: 280px;
+    letter-spacing: 7px;
+    font-family: sans-serif;
+}
+.category_tag{
+    padding: 30px 10px ;
+}
+.category_tag span{
+    margin-left: 4px;
+    font-size: 13px;
+    font-family: calibri;
+    letter-spacing: 2.8px;
+
+}
+.category_tag a{
+    text-decoration: none;
+}
+
+/* filtering section css */
+
+.filter_button{
+    width: 280px;
+    border: 1px solid rgb(73, 69, 69);
+    background-color:white ;
+    font-family: Calibri;
+    font-size: 13px;
+    margin: auto;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+.category_filter:hover{
+    cursor: pointer;
+}
+.category_sort{
+    padding: 30px 0px;
+    background-color: #fbf9f9;
+    display: flex;
+    justify-content: center;
+}
+#select_option_to_sort{
+    border: none;
+    font-size: 11px ;
+    font-family: calibri;
+    letter-spacing: 2px;
+}
+.filter_block{
+    margin: auto;
+    display:none;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    font-size: 11px;
+    font-family: calibri;
+    letter-spacing: 2px;
+    background-color: #fbf9f9;
+}
+.filter_block ul{
+    list-style: none;
+}
+/* __________________________________________________________category-css-end__________________________________________________________ */
+
+
+/***************************************************----------product-css-start----------**********************************************/
+
+#body_care_products {
+    display: grid;
+    width: 1260px;
+    margin: auto;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+}
+#body_care_products>div{
+    background-color: #fbf9f9;
+    font-size: 13px;
+    font-family: calibri;
+    letter-spacing: 2.8px;
+    width: 315px;
+}
+.wishlist{
+    width: 12px;
+    height: 15px;
+    padding: 10px 0px 0px 10px;
+}
+.icon-wishlist:hover{
+    cursor: pointer;
+}
+.icon-wishlist{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-bottom: 0px;
+    padding: 10px;
+}
+#body_care_products>div p{
+    padding: 0px 20px ;
+}
+#body_care_products .price{
+    padding: 20px;
+}
+#body_care_products button{
+    padding: 15px 30px;
+    width: 100%;
+    margin-bottom: 20px; 
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    font-family: calibri;
+    letter-spacing: 2.8px;
+}
+#body_care_products div>p{
+    height: 60px;
+}
+#body_care_products button:hover{
+    background-color: rgb(212, 206, 206);
+    color: black;
+    cursor: pointer;
+}
+/*  ________________________________________________________facial-products-css-end_______________________________________________________________*/
+
+
+/*_*******************************************************-------------newlatter-----------*************************************************** */
+
+#newsletter_image_container{
+    background-image: url(https://images.forestessentialsindia.com/pub/media/cms_images/newsletter-bg.jpg);
+    text-align: center;
+    height: 250px;
+    background-size: cover;
+    padding: 98px 0px;
+    margin-top: 60px;
+}
+#newslatter_text_container{
+    width: 700px;
+    height: 300px;
+    color: white;
+    margin: auto;
+} 
+#newslatter_text_container p{
+    border: 1px solid transparent;
+    line-height: 35px;
+    font-size: 19px;
+    width: 90%;
+    letter-spacing: .5px;
+}
+.inputfield{
+    border: none;
+    padding: 14px 27px;
+    font-size: 12px;
+    height: 20px;
+    font-family:calibri;
+    width: 210px;
+    letter-spacing: 3px;
+}
+#newsletter_image_container button{
+    background-color: #d2ab67;
+    border: 1px solid #d2ab67;
+    color: white;
+    padding: 15px 15px;
+    font-size: 13px;
+    width: 150px;
+    height: 48.5px;
+    letter-spacing: 3px;
+}
+#newsletter_image_container button:hover{
+    background-color: black;
+    border-color: white;
+}
+#newslatter_text_container a{
+    color: white;
+    text-decoration: none;
+}
+/* _____________________________________________________newslatter-css-end_________________________________________________________________ */
+
+
+/* ******************************************--------services-characteristics-css-start---------******************************************* */
+#footer,#service_charac{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    font-family: calibri;
+    color: rgb(85, 80, 80);
+    margin-top: 100px;
+}
+#footer>div,#service_charac div{
+    height: 300px;
+    width: 23%;
+}
+#service_charac div{
+    height: 230px;
+    letter-spacing: 1px;
+}
+#service_charac img{
+    height:100px ;
+    width:100px;
+}
+#service_charac h2{
+    margin-top: 40px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+#service_charac p{
+    font-size: 14px;
+    line-height: 27px;
+    width: 100%;
+}
+/* _____________________________________________________services-characteristics-css-end_________________________________________________________________ */
+
+
+/*****************************************************--------- footer css-start--------*****************************************************/
+    /* margin: 30px auto; */
+/* } */
+#footer ul{
+    list-style: none;
+}
+#footer h4,#footer li{
+    font-size: 11px;
+    line-height: 36px;
+    letter-spacing: 2.8px;
+    color: #000;
+}
+#footer h4{
+    border-top: 1px solid #e8e8e8;
+    margin: 80px 0 30px;
+    padding-top: 30px;
+    font-weight: normal;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer .a{
+    color:#000;
+    border-bottom: 1px solid #8d8080;
+    padding-bottom: 3px;
+}
+#footer p{
+    font-size: 16px;
+}
+#footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+#footer .fa{
+    width: 25px;
+    height: 25px;
+}
+/*__________________________________________________________footer-css-end______________________________________________________________________*/
+
+
+/* **************************************************----------copyright-css-start------------***************************************************/
+#copy_right{
+    display: flex;
+    width: 80%;
+    height: 150px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 250px;
+}
+#copy_right>div{
+    padding: 0px 10px;
+    width: 48%;
+    border: 1px solid transparent;
+}
+#copy_right span{
+    letter-spacing: 2.8px;
+    display: grid;
+    padding-bottom: 40px;
+    padding-top: 25px;
+    font-size: 11px;
+    border-top: 1px solid #e8e8e8;
+}
+/* _______________________________________________________________copyright-css-end_________________________________________________________ */
+@media screen and (min-width:376px) and (max-width:768px) {
+    #body_care_products{
+        display: grid;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        grid-template-columns: repeat(2,1fr); 
+        grid-gap: 20px; 
+    }
+    #body_care_products>div{
+        width: 48%;
+    }
+    #newslatter_text_container{
+        width: 100%;
+    }
+    #service_charac{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #service_charac div{
+
+        width: 48%;
+        height: 320px;
+    }
+    #service_charac>div:nth-child(3),#service_charac>div:nth-child(4){
+        height: 200px;
+    }
+    #footer{
+        border: 1px solid transparent;
+        display: grid;
+        margin: auto;
+        width: 80%;
+        grid-template-rows: 480px 480px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    #copy_right{
+        border: 1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80%;
+        margin: 310px auto 10px ;
+        margin-left: 28%;
+    }
+    #copy_right>div{
+        margin-top:20px ;
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #copy_right span{
+        border: none;
+    }    
+}
+@media screen and (min-width:0px) and (max-width:375px) {
+    #body_care_products{
+        display: gid;
+        display: flex;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        /* grid-template-columns: repeat(2,1fr); */
+        /* grid-gap: 20px; */
+    }
+    #body_care_products>div{
+        width: 100%;
+    }
+    .category_sort>div{
+        display: grid;
+        grid-template-columns:100%;
+        justify-content: center;
+    }
+    .category_sort>div>button{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    #newsletter_image_container{
+        height: 450px;
+    }
+    #newslatter_text_container{
+        width: 100%;
+    }
+    #newslatter_text_container h2{
+        font-size: 50px;
+    }    
+    #input_fleld_div input{
+       margin-bottom: 20px;
+    }
+    #service_charac{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+    }
+    #service_charac div{
+        width: 100%;
+        height: 400px;
+        text-align: center;
+    }
+    #service_charac>div:last-child{
+        height: 100px;
+    }
+    #footer{
+        display: grid;
+        width: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4,400px);
+        grid-gap: 20px;
+    }
+    #footer div{
+        width: 374px;
+    }
+    #footer>div:last-child{
+        height: 100px;
+    }
+    #copy_right{
+        border: 1px solid transparent;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+    #copy_right>div{
+        margin-top:20px ;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #copy_right span{
+        border: none;
+        margin: auto;
+    }
+    #copy_right img{
+        width: 350px;
+    }
+}

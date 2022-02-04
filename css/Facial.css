@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+}
+#facialcare{
+    border:#fbf9f9 solid 1px;
+     width: 100%;
+    height: 290px;
+    background-image: url("https://images.forestessentialsindia.com/pub/media/catalog/category/1_Facial_Care_MG_7073_final_2880x640-min-min_1.jpg");
+    background-size: contain;
+
+}
+#facialcare>p{
+    margin-left: 500px;
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  word-spacing: 20px;
+}
+#facialcarefilter{
+    border: black solid transparent;
+    width: 100%;
+    height: 100px;
+    background-color: #fbf9f9 ;
+    letter-spacing: 2px;
+    
+}
+.filterbutton{
+    margin-top: 25px;
+    margin-left: 400px;
+    border: black solid 1px;
+    background-color: #fbf9f9 ;
+    width: 250px;
+    height: 50px;
+}
+.sortbutton{
+    border: black solid 1px;
+    background-color: #fbf9f9 ;
+    width: 250px;
+    height: 50px;
+}
+#facialcontainer{
+    border: black solid transparent;
+    width: 100%;
+
+}
+.facialhome{
+    background-color: white;
+    border: blue solid transparent;
+    width: 100%;
+    height: 100px;
+}
+.facialhome>p{
+    margin-left:35px ;
+    margin-top: 60px;
+    letter-spacing: 2px;
+}
+.facialproducts{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    width: 95%;
+    margin: auto;
+  
+}
+.productbutton{
+    border: black solid 1px;
+    background-color:#fbf9f9 ;
+    margin-bottom: 10px;
+    width:290px;
+    height: 50px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.productdiv{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#fbf9f9 ;
+    margin-right: 10px;
+    border:chocolate solid transparent;
+    
+}
+.facialfooter{
+    width: 100%;
+    height: 100px;
+    border: black solid transparent;
+    padding: 20px;
+ }
+ .facialfooter>p{
+     line-height: 25px;
+     letter-spacing: 1px;
+ }
+ .smalldiv>p{
+     font-size: 14px;
+     margin-left: 10px;
+     letter-spacing: 2px;
+ }
+ .wishlistimg{
+     width: 12px;
+     height: 15px;
+     padding: 10px 0px 0px 10px;
+ }
+ .wishlistimg:hover{
+     cursor: pointer;
+ }
+ .icon-wishlist{
+    height: 20px;
+    padding: 10px;
+    display: block;
+    padding-bottom: 0px;
+ 
+
+}
+
+
+@media screen and (max-width:765px){
+    .facialproducts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:450px){
+    .facialproducts{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #facialcare{
+        background-size: cover;
+    }
+
+    .sortbutton{
+        display: block;
+        margin: auto;
+    }
+}

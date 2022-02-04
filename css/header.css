@@ -1,0 +1,673 @@
+/*@font-face {
+  font-family:calibre;
+  src: url(CalibreRegular.otf);
+}*/
+
+@font-face {
+  font-family:calibre;
+  src: url("./font/CalibreLight.otf");
+}
+
+body{
+	margin: 0;
+}
+
+
+/********************HEADER*****************************/
+
+.main--Navbar{
+	font-size:10px;
+	margin: 0;
+	font-family:calibre ,sans-serif;
+}
+.main--Navbar *{
+	box-sizing: border-box;
+}
+
+/************** Notification *********************/
+.ads{
+	background:#333;
+	color:#fff;
+	height:5vh;
+	font-size:1em;
+	text-align: center;
+	letter-spacing:1.8px;
+	line-height:14px;
+	padding: 10px 10px 8px 10px;
+	overflow:hidden;
+}
+
+.ads a{
+	color:#fff;
+	text-decoration: none;
+}
+
+.notify{
+	display: none;
+	animation: left-side .1s ;
+}
+
+
+@keyframes left-side{
+	from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+/*--------------------------------------------------------------------------------*/
+/*---------------------NOTIFICATION RESPONSIVE------------------------------------*/
+@media screen and (max-width:768px){
+
+	/*++++++NTOFIY+++++++++*/
+	.ads{
+			text-align:left;
+			line-height:2vh;
+			height: 4vh;
+			text-align: center;
+			letter-spacing: 2px;
+			font-weight: 200;
+
+	}
+
+
+}
+
+
+
+
+
+/*******************Navbar ***************/
+.navbar{
+	background: #fbf9f9;
+	
+}
+
+/* nav-1 */
+.navbar--1{
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	width:92%;
+	margin:auto ;
+	padding:1.2em 0px;
+	text-transform: uppercase;
+	font-size:1em;
+	letter-spacing:3px;
+	line-height: 15.7143px;
+	border-bottom:1px solid #ebebeb;
+	font-weight: 400;
+	color:#888;
+}
+.INR{
+	letter-spacing:3px;
+	border: none;
+	font-size:1em;
+	background: #fbf9f9;
+}
+.submenu--left , .submenu--right{
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.margin-right{
+	margin-right:1em;
+}
+
+.submenu-mg{
+	margin-right:4em;
+
+}
+
+.mg-medium{
+	margin-right:2em;
+}
+
+.nav-icon i{
+	display:none;
+}
+
+.nav-icon a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.submenu--logo{
+	width:16em;
+	height:10.7em;
+	transition: all .2s;
+}
+
+/* nav-2 */
+.navbar--2{
+	background:#fbf9f9;
+}
+
+.navbar_nav{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	list-style:none;
+	text-transform:uppercase;
+	font-size:1.1em;
+	letter-spacing:2.8px;
+	padding:1.2em;
+	color:rgb(0, 0, 0);
+	margin:0;
+	line-height: normal;
+	font-stretch: expanded;
+	font-weight:200;
+
+
+	
+}
+
+.nav-item:not(:first-child){
+	margin-left:2em;
+}
+
+.nav-link , .nav-link:link , .nav-link:active{
+	text-decoration: none;
+	color:#888;
+}
+
+
+.comment-tag{
+	display:flex;
+	align-items:center;
+}
+.comment-tag img{
+	margin-top:-7px;
+	margin-right:.5em;
+	width:32px;
+	height:32px;
+}
+
+.festivel-tag{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+
+}
+.festivel-tag img{
+	width:40px;
+	height:35px;
+	margin-top:-3.2em;
+	
+
+}
+
+.Nav-bar{
+	display: none;
+}
+
+.responsive_div{
+	display:none;
+}
+
+.cross--icon__res--hide{
+	display:none;
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*---------------------NAVBAR RESPONSIVE---------------------------------------------------------------*/
+
+/* MEDIUM DEVICE */
+@media only screen  and (max-width:768px){
+
+		/*===NAVBAR 1==*/
+		.submenu--left div:nth-child(3) , .submenu--left div:nth-child(4){
+				display: none;
+		}
+
+
+		/*LOGO IMG */
+		.submenu--center{
+				flex-basis:0;
+ 
+		}
+
+		.submenu--center img{
+				height:auto;
+		}
+
+		.navbar--1{
+			padding: 10px 0px;
+		}
+
+		.nav-icon span{
+				display:none;
+		}
+
+		.nav-icon i{
+				display:block;
+				font-size:25px;
+		}
+
+		.mg-medium{
+				margin-right:.5em;
+		}
+
+		.Nav-bar{
+			display:block;
+			font-size: 25px;
+			margin-right: 10px;
+		}
+
+		.submenu--left , .submenu--right{
+				align-items:unset;
+		}
+
+
+
+
+		/*== NAVBAR 2 ===*/
+
+		
+
+		.navbar--2{
+			display:none;
+			position: relative;
+			margin-top: -6%;
+		}
+
+		.navbar_nav{
+			display: block;
+			position: absolute;
+			z-index: 999;
+			width:80%;
+			background:#fff;
+			height:90vh;
+			overflow: scroll;
+		}
+
+		.resp--nav .navbar--2{
+			display:block;
+		}
+
+		.resp--nav .navbar--2 >img{
+			display: block;
+		}
+
+		.resp--nav .navbar--1{
+			display:none;
+		}
+
+		.nav-item{
+			padding:20px 0px;
+			font-size: 13px;
+			margin: 0;
+		}
+
+		.nav-item:not(:first-child){
+    		padding-left:2em;
+		}
+
+
+		.responsive_div{
+				display:block;
+				margin-top: -20px;
+		}
+
+
+		.responsive_link{
+			display:flex;
+			align-items: center;
+			margin-bottom:10px;
+			padding: 10px;
+		}
+
+		.responsive_link a{
+			margin-left:30px;
+			text-decoration: none;
+			font-size: 13px;
+			color:#777;
+		}
+
+		.comment-tag img, .festivel-tag img{
+				display: none;
+		}
+		.festivel-tag{
+			display:block;
+		}
+
+		.responsive--serach{
+				  padding: 0 15px;
+    			background: #fff;
+    			border: 2px solid #eee;
+    			margin: 0;
+    			display: flex;
+    			align-items: center;
+    			justify-content: space-between;
+    			width: 100%;
+    			background:#fbf9f9;
+			}
+			.responsive--serach input{
+				background:#fbf9f9;
+			}
+
+		.responsive--serach img{
+			margin-top:-6px;
+		}
+
+		.navbar--2 .navbar_nav li::before{
+				background:url("https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/Eighteentech_Megamenu/images/sidenav-icons.svg");
+				background-size: 16px;
+				content: "";
+				width:24px;
+				height: 27px;
+				cursor:pointer;
+				position:absolute;
+				left: 0;
+				margin-left: 20px;
+				margin-top: -10px;
+				opacity:.5;
+		}
+
+		.navbar--2 .navbar_nav li::after{
+			content:"";
+			border-bottom: 1px solid #eee;
+			display: block;
+			position: absolute;
+			left: 0;
+			right: 0;
+			padding-bottom: 20px;
+			margin-left: 15px;
+		}
+		.navbar_nav li:first-child::before{
+			opacity: 0;
+		}
+
+		.navbar_nav li:first-child::after{
+			border:none;
+		}
+
+
+		.navbar_nav li.res-icon-1::before{
+			background-position: 0 -246px;
+			background-size:24px;
+		}
+
+		.navbar_nav li.res-icon-2::before{
+			background-position: 0 -47px;
+			background-size:22px;
+		}
+
+		.navbar_nav li.res-icon-3::before{
+			background-position: 0 -87px;
+			background-size:24px;
+		}
+		
+
+		.navbar_nav li.res-icon-4::before{
+			background-position: 2px -94px;
+    	background-size: 19px;
+		}
+		.navbar_nav li.res-icon-5::before{
+			background-position: 4px -1px;
+		}
+
+		.navbar_nav li.res-icon-6::before{
+			background-position: 3px -121px;
+    	background-size: 18px;
+		}
+
+		.navbar_nav li.res-icon-7::before{
+			background-position: 0 -252px !important;
+			background-size:24.6px;
+		}
+
+		.navbar_nav li.res-icon-8::before{
+			background-position: 0 -191px;
+    	background-size: 22px;
+		}
+
+		.navbar_nav li.res-icon-9::before{
+			background-position: 0 -494px;
+    	background-size: 22px;
+		}
+
+		.cross--icon__res--hide{
+				 position: absolute;
+    		z-index: 9999;
+    		right: 107px;
+    		width: 50px;
+    		padding: 16px;
+    		background: #fff;
+
+		}
+
+		
+}
+
+
+/******************* SMALL DEVICE  *********************/
+@media only screen and (min-width:0px) and (max-width:450px){
+
+		/*==NAVBAR 1==*/
+
+		.navbar--1{
+			padding: 0px;
+		}
+		.submenu--center{
+				flex-basis: 55%;
+ 
+		}
+
+
+		/*== NAVBAR 2 ===*/
+
+		
+
+		.navbar--2{
+			margin-top: -10%;
+		}
+
+		.cross--icon__res--hide{
+    		right: 26px;
+
+		}
+		.nav-icon i{
+				font-size:20px;
+		}
+
+		.Nav-bar{
+			font-size: 20px;
+			
+		}
+		   
+
+}
+
+
+/****************************************************************************************/
+
+/******************ON SCROLL EDIT NAV *********************/
+.nav_scroll{
+	box-shadow: 0 2px 3px rgb(57 63 72 / 20%);
+	position:fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  background: #fbf9f9;
+}
+.nav_scroll .submenu--logo{
+	width:9em;
+	height:auto;
+}
+.nav_scroll .navbar--1{
+	padding:1em;
+}
+
+@media screen  and (max-width:758px){
+		.nav_scroll .submenu--logo{
+			width:15em;
+			height:auto;
+		}
+}
+
+
+/*****************cart ********************/
+
+.cart{
+
+	position:relative;
+}
+
+.cart > span{
+	position: absolute;
+	display:inline-block;
+    z-index: 1; 
+    width:25px;
+    height:25px;
+    border: 1px solid black;
+    left:10px;
+    top: 10px;
+    border-radius: 50px;
+    text-align:center;
+    padding-top:5px;
+    padding-left:2px;
+    color:#fff;
+    background:black;
+
+} 
+
+/******************************SEARCH*******************************************/
+
+
+.search{
+	height:20vh;
+	color:#757575;
+	width:95%;
+	margin:auto;
+	text-align: center;
+	position:relative;
+	z-index:1;
+	margin-top:1%;
+	
+}
+#hide{
+	display:none;
+}
+
+.search--div{
+
+	padding-right:1em;
+	background:#fff;
+	border: 2px solid #eee;
+	margin: auto;
+	display:inline-block;
+	width:50%;
+	margin-top:4em;
+	
+}
+
+
+.search_input{
+	width:55em;
+	height: 50px;
+   	padding: 0 15px;
+    margin: 0;
+    font-family: inherit;
+    font-size: 1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.search_input:focus{
+	outline:none;
+}
+
+.cross--icon{
+	position:absolute;
+	width:2em;
+	height:2em;
+	right:1em;
+	top:50px;
+	cursor: pointer;
+	
+
+
+}
+
+#search{
+	outline:none;
+}
+
+
+/**********************IMG SILDER *************************************/
+
+.slider_container{
+	background: #fbf9f9;
+	position: relative;
+	margin:auto;
+	transition: all 0s ease 0s;
+}
+
+
+.prev , .next{
+	position:absolute;
+	top:40%;
+	color:#fff;
+	padding:2em;
+	margin:2em;
+	opacity:0;
+	cursor:pointer;
+	background:rgba(0 ,0 ,0 ,.2);
+	border-radius:3px;
+}
+
+.next{
+	right:0;
+}
+
+
+.img_slider{
+	display:none;
+	animation:fade-slide 5s;
+	
+}
+
+@keyframes fade-slide{
+	from{
+		opacity: .9;
+	}
+	to{
+		
+		opacity:1;
+	}
+
+}
+
+.slider_container:hover .prev  , .slider_container:hover .next{
+	opacity:1;
+}
+
+
+/*==========responsive slider =========*/
+@media screen and (max-width:768px){
+	.prev , .next{
+		top:15%;
+		padding:1em;
+
+}
+
+@media screen and (max-width:450px){
+	.prev , .next{
+			top:30%;
+	}
+	
+}
+
+
+
+
+

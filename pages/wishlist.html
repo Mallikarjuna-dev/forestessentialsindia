@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://images.forestessentialsindia.com/pub/media/favicon/stores/2/favicon.png">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="../css/header.css">
+   <link rel="stylesheet" href="../css/wishlist.css">
+</head>
+<body>
+<!-- HEADER -->
+        <div class="main--Navbar">
+            <!-- NOTIFY DIV -->
+            <div class="ads">
+                <div class="notify">COMPLIMENTARY SAMPLES ON EVERY PURCHASE!</div>
+                <div class="notify">WE DELIVER ACROSS INDIA &amp; INTERNATIONALLY.</div>
+                <div class="notify">RECEIVE COMPLIMENTARY <a href="/shop.html"><u>GIFT BOXES</u></a> UP TO ₹6500/-</div>
+                
+            </div>
+
+            <!--NAVBAR MAIN -->
+            <div class="navbar">
+                <!-- IMAGE NAVBAR 1-->
+                <div class="navbar--1">
+                    <div class="submenu--left">
+                        <div class="Nav-bar" onclick="Navbar()">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="submenu-mg">
+                            <a href="#search" id="search"><img src="..\img\search-icon.png"></a>
+                        </div>
+                        <div class="margin-right mg-medium">STORES</div>
+                        <div>
+                            <select class="INR">
+                                <option>INR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submenu--center">
+                        <a href="../index.html">
+                            <picture>
+                                <source srcset="../img/mobile-logo.png" media="(max-width:540px)">
+
+                                <img class="submenu--logo" src="../img/FE-Logo_1.webp">  
+                            </picture>
+                            
+                        </a>
+                    </div>
+                    <div class="submenu--right">
+                        <div class="nav-icon mg-medium">
+                            <a href="Signup.html">
+                                <span>account</span>
+                                <i class="fa fa-user-circle-o"></i>
+                            </a>
+                        </div>
+                        <div class="nav-icon mg-medium">
+                            <a href="wishlist.html">
+                                <span>wishlist</span>
+                                <i class='fa fa-heart-o'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="cart.html" >
+                            
+                                <div class="cart">
+                                    <img src="../img/cart-icon.png" >
+                                    <span>0</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- IMAGE NAVBAR 2 LINKS-->
+                <div class="navbar--2">
+                    <ul class="navbar_nav">
+                        <li class="nav-item">
+                            <!--DISPLAY ONLY MOBILE PHONE RESPONSIVE --->
+                            <div class="responsive_div">
+                                <div class="responsive_link">
+                                    <img src="https://images.forestessentialsindia.com/pub/media/new-fe.png" width="15%">
+                                    <a href="#" >LOGIN/REGISTER</a>
+                                </div>
+
+                                <div class="responsive--serach">
+                                    <input type="text" placeholder="search the web store" class="search_input search_resp">
+                                    <img src="..\img\search-icon.png">
+                                </div>
+                            </div>  
+                        </li>
+                        <li class="nav-item comment-tag res-icon-1">
+                            <img src="../img/new.jpg" >
+                            <a href="bespoke.html" class="nav-link">bespoker services</a>
+                        </li>
+                        <li class="nav-item res-icon-2">
+                            <a href="Facial.html" class="nav-link">facial care</a>
+                        </li>
+                        <li class="nav-item res-icon-3">
+                            <a href="body-care.html" class="nav-link" >body care</a>
+                        </li>
+                        <li class="nav-item res-icon-4">
+                            <a href="Hair.html" class="nav-link" >hair care</a>
+                        </li>
+                        <li class="nav-item res-icon-5">
+                            <a href="makeup.html" class="nav-link" >makeup</a>
+                        </li>
+                        <li class="nav-item res-icon-6">
+                            <a href="" class="nav-link" >wellness</a>
+                        </li>
+                        <li class="nav-item festivel-tag res-icon-7">
+                            <img src="../img/festival.jpg" >
+                            <a href="Gifting.html" class="nav-link" >gifting</a>
+                        </li>   
+                        <li class="nav-item res-icon-8">
+                            <a href="rituals.html" class="nav-link" >rituals</a>
+                        </li>
+                        <li class="nav-item res-icon-8">
+                            <a href="collection.html" class="nav-link" >collections</a>
+                        </li>
+                        <li class="nav-item res-icon-9">
+                            <a href="" class="nav-link" >discover</a>
+                        </li>
+                    </ul>
+                    <!--ONLY SHOWS IN MOBILE PHONE -->
+                    <img class="cross--icon__res--hide" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" onclick="resCrossIcon()">
+
+                </div>
+
+                <!--ONCLIK SEARCH BAR SHOW --->
+                <div class="search" id="hide">
+                    <div class="search--div">
+                        <input type="text" placeholder="search the web store" class="search_input">
+                        <img src="..\img\search-icon.png">
+                    </div>
+                    <img class="cross--icon" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" id="show">
+                </div>
+            </div>
+        </div>
+    <div id="wishlistcontainer">
+        <div class="myaccount">
+            <h1>My Account</h1>
+            <p>__</p>
+            <button>Dashboard</button><br>
+            <button>Edit Information</button><br>
+            <button>Address</button><br>
+            <button>Order History</button><br>
+            <button>Product Reviews </button><br>
+            <button>Wishlist</button><br>
+            <button>Newsletter</button><br>
+            <button>Change Password</button><br>
+            <button>My Returns</button><br>
+        </div>
+        <div class="wishlist">
+            <div class="wishlistheader">
+                <h1>Wishlist</h1>
+                <hr>
+            </div>
+            <div class="wishlistproducts"></div>
+        </div>
+
+    </div>
+</body>
+</html>
+<script src="../js/header.js"></script>
+<script src="../js/wishlist.js"></script>

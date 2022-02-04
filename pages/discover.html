@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://images.forestessentialsindia.com/pub/media/favicon/stores/2/favicon.png">
+    <title>Discover</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/discover.css">
+    <link rel="stylesheet" href="../css/landingpage.css">
+</head>
+
+<body>
+     <!-- HEADER -->
+    <div class="main--Navbar">
+            <!-- NOTIFY DIV -->
+            <div class="ads">
+                <div class="notify">COMPLIMENTARY SAMPLES ON EVERY PURCHASE!</div>
+                <div class="notify">WE DELIVER ACROSS INDIA &amp; INTERNATIONALLY.</div>
+                <div class="notify">RECEIVE COMPLIMENTARY <a href="/shop.html"><u>GIFT BOXES</u></a> UP TO ₹6500/-</div>
+                
+            </div>
+
+            <!--NAVBAR MAIN -->
+            <div class="navbar">
+                <!-- IMAGE NAVBAR 1-->
+                <div class="navbar--1">
+                    <div class="submenu--left">
+                        <div class="Nav-bar" onclick="Navbar()">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                        <div class="submenu-mg">
+                            <a href="#search" id="search"><img src="..\img\search-icon.png"></a>
+                        </div>
+                        <div class="margin-right mg-medium">STORES</div>
+                        <div>
+                            <select class="INR">
+                                <option>INR</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submenu--center">
+                        <a href="../index.html">
+                            <picture>
+                                <source srcset="../img/mobile-logo.png" media="(max-width:540px)">
+
+                                <img class="submenu--logo" src="../img/FE-Logo_1.webp">  
+                            </picture>
+                            
+                        </a>
+                    </div>
+                    <div class="submenu--right">
+                        <div class="nav-icon mg-medium">
+                            <a href="Signup.html">
+                                <span>account</span>
+                                <i class="fa fa-user-circle-o"></i>
+                            </a>
+                        </div>
+                        <div class="nav-icon mg-medium">
+                            <a href="wishlist.html">
+                                <span>wishlist</span>
+                                <i class='fa fa-heart-o'></i>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="cart.html" >
+                            
+                                <div class="cart">
+                                    <img src="../img/cart-icon.png" >
+                                    <span>0</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <!-- IMAGE NAVBAR 2 LINKS-->
+                <div class="navbar--2">
+                    <ul class="navbar_nav">
+                        <li class="nav-item">
+                            <!--DISPLAY ONLY MOBILE PHONE RESPONSIVE --->
+                            <div class="responsive_div">
+                                <div class="responsive_link">
+                                    <img src="https://images.forestessentialsindia.com/pub/media/new-fe.png" width="15%">
+                                    <a href="#" >LOGIN/REGISTER</a>
+                                </div>
+
+                                <div class="responsive--serach">
+                                    <input type="text" placeholder="search the web store" class="search_input search_resp">
+                                    <img src="..\img\search-icon.png">
+                                </div>
+                            </div>  
+                        </li>
+                        <li class="nav-item comment-tag res-icon-1">
+                            <img src="../img/new.jpg" >
+                            <a href="bespoke.html" class="nav-link">bespoker services</a>
+                        </li>
+                        <li class="nav-item res-icon-2">
+                            <a href="Facial.html" class="nav-link">facial care</a>
+                        </li>
+                        <li class="nav-item res-icon-3">
+                            <a href="body-care.html" class="nav-link" >body care</a>
+                        </li>
+                        <li class="nav-item res-icon-4">
+                            <a href="Hair.html" class="nav-link" >hair care</a>
+                        </li>
+                        <li class="nav-item res-icon-5">
+                            <a href="makeup.html" class="nav-link" >makeup</a>
+                        </li>
+                        <li class="nav-item res-icon-6">
+                            <a href="" class="nav-link" >wellness</a>
+                        </li>
+                        <li class="nav-item festivel-tag res-icon-7">
+                            <img src="../img/festival.jpg" >
+                            <a href="Gifting.html" class="nav-link" >gifting</a>
+                        </li>   
+                        <li class="nav-item res-icon-8">
+                            <a href="rituals.html" class="nav-link" >rituals</a>
+                        </li>
+                        <li class="nav-item res-icon-8">
+                            <a href="collection.html" class="nav-link" >collections</a>
+                        </li>
+                        <li class="nav-item res-icon-9">
+                            <a href="discover.html" class="nav-link" >discover</a>
+                        </li>
+                    </ul>
+                    <!--ONLY SHOWS IN MOBILE PHONE -->
+                    <img class="cross--icon__res--hide" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" onclick="resCrossIcon()">
+
+                </div>
+
+                <!--ONCLIK SEARCH BAR SHOW --->
+                <div class="search" id="hide">
+                    <div class="search--div">
+                        <input type="text" placeholder="search the web store" class="search_input">
+                        <img src="..\img\search-icon.png">
+                    </div>
+                    <img class="cross--icon" src="https://cdn.forestessentialsindia.com/pub/static/frontend/Forest/Theme/en_US/images/cross-icon.svg" id="show">
+                </div>
+            </div>
+    </div>
+    <div id="contain">
+        <div class="main-block1">
+            <div class="lines">
+                <p class="first">ABOUT US</p>
+                <span></span>
+                <h1 class="firsth1">Luxury of Purity</h1>
+                <h2 class="sub-heading">Pure . Fresh . Seasonal . Natural</h2>
+            </div>
+        </div>
+        <div class="main-block2">
+            <div class="container">
+                <div class="font2">
+                    <p class="font2">ABOUT US</p>
+                    <span></span>
+                </div>
+                <div class="row">
+                    <div class="head2 font1">
+                        <h3>Welcome to a world where ancient wisdom is infused with modern aesthetic.</h3>
+                    </div>
+                    <div class="para2 font1">
+                        <p>
+                            Forest Essentials is an authentic, traditional skincare brand with its foundations in the
+                            ancient science of Ayurveda.
+                            A pioneer of Luxurious Ayurveda, today it has become the quintessential Indian beauty brand
+                            that combines the ancient beauty rituals of Ayurveda with a stylish, modern aesthetic for a
+                            more relevant emphasis on efficacy, sensorial experience and pleasure of usage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block3">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <img src="https://images.forestessentialsindia.com/pub/media/about-us/our-philosophy.jpg"
+                            alt="Our philosophy" height="100%" width="100%">
+                    </div>
+                    <div>
+                        <p class="font2">OUR PHILOSOPHY</p>
+                        <span></span>
+                        <h2 class="font1">If You Cannot Eat It, Do Not Use It On Your Skin</h2>
+                        <p class="para2 font1">
+                            That is the Ayurvedic & Forest Essentials standard for pure, fresh and natural. We believe
+                            that beauty products made of living substances such as plants or their extracts, are
+                            balanced by nature and contain the vibratory energy that constitutes life. These contain all
+                            the purifying, nutritive and balancing properties necessary to nurture the skin and for
+                            eternal beauty. They are the perfect foods for the skin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block4">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <p class="font2">OUR VALUES</p>
+                        <span></span>
+                        <h2 class="font1 head2">Social Responsibility</h2>
+                        <p class="font1 para2">
+                            CSR has been the cornerstone of success from the time of Forest Essentials’ inception. It
+                            has been inherent in the DNA of the company to give back to nature what we take from it,
+                            which is also the very premise of Ayurveda.
+                        </p>
+                        <div class="font2" class="link">
+                            <a href="/social-responsibility">KNOW MORE <span>-></span></a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://images.forestessentialsindia.com/pub/media/about-us/our-values.jpg"
+                            alt="Social Responsibility" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block5">
+            <div class="container">
+                <div>
+                    <p class="font2">OUR CERTIFICATIONS</p>
+                    <span></span>
+                </div>
+                <div class="row">
+                    <div>
+                        <h2 class="font1 head2">Clean, Cruelty Free Beauty </h2>
+                    </div>
+                    <div>
+                        <p class="font1 para2">
+                            The Ayurvedic standard for beauty was always pure, fresh, seasonal and natural. Across all
+                            our products, we control the conception, formulation, manufacturing and sale of our
+                            Ayurvedic products, thereby ensuring quality & purity across all pillars. We use this
+                            philosophy to produce our line of treatments and our certifications attest to this.
+                        </p>
+                    </div>
+                </div>
+                <div class="inline">
+                    <div class="cartimg_list">
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/cruelty-free-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div class="mouse" style="display: none;">
+                                <p>"PETA: All our products are certified Animal Cruelty Free by PETA – the largest
+                                    animal rights organization in the world!"</p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/made-safe-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div style="display: none;">
+                                <p>
+                                    "Made Safe: Our Mother & Child Care range is certified Made Safe, a coveted label
+                                    that enables you to ascertain our products contain ingredients that are completely
+                                    safe to use, according to FDA and international standards."
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/gmp-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div style="display: none;">
+                                <p>
+                                    "Good Manufacturing Practice: Our products are manufactured and controlled according
+                                    to quality standards."
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/make-in-india-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div style="display: none;">
+                                <p>
+                                    "Made In India: We celebrate the diverse landscapes and geography of India. Our
+                                    ingredients are sourced from beautiful locations all around the country, where they
+                                    are known to be in their most verdant and potent form and taken right from nature’s
+                                    pristine repertoire."
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/ayush-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div style="display: none;">
+                                <p>
+                                    "AYUSH: Our products are certified 100% natural and inspired by recipes of
+                                    Ayurveda."
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/ISO-certificate.png"
+                                alt="" height="130px" width="190px">
+                            <div style="display: none;">
+                                <p>
+                                    "ISO 9001:2015: We conform to the highest quality control standards to meet
+                                    statutory and regulatory requirements certified as per ISO 9001:2015."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block6">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <p class="font2">RECOGNITION <span></span></p>
+                        <h2 class="font1 head2">Our Recent Awards</h2>
+                    </div>
+                </div>
+                <div class="inline">
+                    <div class="cartimg_list">
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/elle-india-awards.png"
+                                alt="" height="130px" width="190px">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/hand-polisher-blood-orange-50-gm.html">Best of Hand Treatment, Blood
+                                        Orange Hand Polisher</a>
+                                    <br>
+                                    <a href="/kumkumadi-teenage-night-cream-30-gms.html">Best of Brightening, Kumkumadi
+                                        Teenage Night Cream</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/vogue-beauty-awards.png"
+                                alt="" height="130px" width="190px">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/tejasvi-brightening-lightening-sheet-mask-30g.html">Best Face Mask,
+                                        Tejasvi Ayurvedic Sheet Mask</a>
+                                    <br>
+                                    <a href="/soundarya-luminous-beauty-oil.html">Best in Body Care, Soundarya Luminous
+                                        Beauty Oil</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/asia-spa-india-awards.png"
+                                alt="" height="130px" width="190px">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/body-polisher-sandalwood-turmeric.html">Best Spa Product, Sandalwood &
+                                        Turmeric Body Polisher</a>
+                                    <br>
+                                    <a href="/soundarya-radiance-cream-with-24k-gold-and-spf25.html">Best Spa Product,
+                                        Soundarya Radiance Cream</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/gq-awards.png"
+                                height="130px" width="190px" alt="">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/sandalwood-orange-peel-shaving-cream.html">GQ Best Grooming Product,
+                                        Sandalwood & Orange Peel Shaving Cream</a>
+                                    <br>
+                                    GQ Best Grooming Product, Lemongrass Loofah Soap"
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/cosmopolitan-beauty-awards.png"
+                                alt="" height="130px" width="190px">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/advanced-soundarya-age-defying-facial-serum-with-24k-gold.html">Best
+                                        Facial Serum, Advanced Soundarya Age Defying Serum With 24K Gold</a>
+                                    <br>
+                                    <a href="/luscious-lip-balm-sugared-rose-petal.html">Best Lip Balm (Editor's Pick),
+                                        Sugared Rose Petal Luscious Lip Balm</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="https://images.forestessentialsindia.com/pub/media/about-us/harpers-bazaar-awards.png"
+                                height="130px" width="190px" alt="">
+                            <div class="awards-quote" style="display: none;">
+                                <p>
+                                    <a href="/ojas-age-arresting-ayurvedic-sheet-mask-30g.html">Best of Anti-Ageing,
+                                        Ojas Age Arresting Ayurvedic Sheet Mask</a>
+                                    <br>
+                                    <a href="/lightening-and-brightening-tejasvi-emulsion-25-gms.html">Best Night Cream,
+                                        Tejasvi Emulsion</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block7">
+            <div class="lines">
+                <div class="image-caption">
+                    <p>ORIGIN</p>
+                    <span></span>
+                    <h2 style="font-size: 48px; line-height: 56px;">Our Spiritual Home</h2>
+                    <p class="para1">
+                        Our spiritual home and manufacturing base is nestled in the Himalayan foothills of Uttarakhand,
+                        a sublime, mystical terrain, and home to delicate flora, snow-fed rivers, and magnificent
+                        mountain peaks that form a natural barrier against the world’s impurities.
+                    </p>
+                    <div class="font2" class="link">
+                        <a href="/our-spiritual-home">
+                            Know More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block8">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <img src="https://images.forestessentialsindia.com/pub/media/about-us/our-manufacturing-excellence.jpg"
+                            alt="" height="100%" width="100%">
+                    </div>
+                    <div>
+                        <p class="font2">OUR MANUFACTURING EXCELLENCE</p>
+                        <span></span>
+                        <h2 class="font1"> State of the Art Manufacturing</h2>
+                        <p class="para2 font1">
+                            Our factory has world-class manufacturing facilities, with pharmaceutical grade production
+                            standards. It includes one-of-a-kind R&D departments and is a green factory by design, which
+                            ensures that we deliver a sophisticated product that is conscientious about the environment.
+                            Products are made using traditional and artisanal expertise, infusing Ayurvedic herbs,
+                            aromatic flowers, and pure essential oils grown naturally & organically in our own farms and
+                            sourced from regions across India, where they are known to be of the most superior quality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block9">
+            <div class="container">
+                <div class="font2">
+                    <p>WHO WE ARE</p>
+                    <span></span>
+                </div>
+                <div class="row">
+                    <div class="head2 font1">
+                        <h2>Discover Luxurious Ayurveda </h2>
+                    </div>
+                    <div class="para2 font1">
+                        <p>
+                            Forest Essentials exists on a metaphysical plane between the Himalayas and Manhattan;
+                            mythology and modernity. Within these beautiful bottles and boxes, experience the profound
+                            beauty and regenerative power of ancient Ayurveda.
+                        </p>
+                    </div>
+                </div>
+                <div class="video">
+                    <iframe
+                        src="https://www.youtube.com/embed/ImooVucw998?rel=0&enablejsapi=1&origin=https%3A%2F%2Fwww.forestessentialsindia.com"
+                        frameborder="0" width="100%" data-gtm-yt-inspected-8167684_21="true" class="youtube-video"
+                        allowfullscreen="allowfullscreen" height="100%" width="100%">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="main-block10">
+            <div class="container">
+                <div class="row">
+                    <div>
+                        <p class="font2">OUR EXPERTISE</p>
+                        <span></span>
+                        <h2 class="font1 head2">Discover Ayurveda</h2>
+                        <p class="font1 para2">
+                            The secrets to flawless skin and ageless beauty have been known to Indian physicians for
+                            over six thousand years, preserved in one of the world’s oldest systems of health care and
+                            healing, known as ‘Ayurveda’ or ‘Knowledge of Life’. Ayurveda works on four levels – body,
+                            breath, mind and spirit – it is only when all these are in perfect harmony that you radiate
+                            not only outer but also inner beauty.
+                        </p>
+                        <div class="font2" class="link">
+                            <a href="/what-is-ayurveda">Know More</a>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://images.forestessentialsindia.com/pub/media/about-us/discover-ayurveda.jpg"
+                            alt="Discover Ayurveda" height="100%" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-block11">
+            <div class="container">
+                <div class="font2">
+                    <p>Ayurveda</p>
+                    <span></span>
+                </div>
+                <div class="row">
+                    <div class="head2 font1">
+                        <h2>Three Faces of Beauty</h2>
+                    </div>
+                    <div class="para2 font1">
+                        <p>
+                            According to the science of Ayurveda, Doshas are the inherent intelligence of the body and
+                            define the innermost nature of every individual. They orchestrate all the functions of the
+                            body, shaping how we look, how our metabolic processes function, how we think and feel, and
+                            how we respond to external stimuli.
+                        </p>
+                        <p>
+                            The 3 Doshas are: Vata, Pitta and Kapha. Each individual constitutes a balance of these 3
+                            energies, which create unique physical, mental and emotional characteristics. By determining
+                            which Dosha is most dominant in your constitution, you will be able to decode your inherent
+                            essence and match it to skincare, haircare or fragrance that is uniquely yours.
+                        </p>
+                    </div>
+                </div>
+                <div class="multi-img">
+                    <div class="lastimg">
+                        <img src="https://images.forestessentialsindia.com/pub/media/4_Kapha-Dosha.jpg"
+                            alt="Discover Kapha" width="100%" height="100%">
+                        <div class="link">
+                            <a class="font2" href="/a-portrait-of-kapha">Discover Kapha</a>
+                        </div>
+                    </div>
+                    <div class="lastimg">
+                        <img src="https://images.forestessentialsindia.com/pub/media/2_vata_2.jpg" alt="Discover Vata"
+                            width="100%" height="100%">
+                        <div class="link">
+                            <a class="font2" href="/a-portrait-of-vata">Discover Vata</a>
+                        </div>
+                    </div>
+                    <div class="lastimg">
+                        <img src="https://images.forestessentialsindia.com/pub/media/3_Pitta-Dosha.jpg"
+                            alt="Discover Pitta" width="100%" height="100%">
+                        <div class="link">
+                            <a class="font2" href="/a-portrait-of-pitta">Discover Pitta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---FOOTER PART-->
+    <div id="newsletter_image_container">
+        <div id="newslatter_text_container">
+            <h2>Newslatter</h2>
+            <p>
+                Get insider access for limited edition offers, new launches, insights on Ayurvedic skincare, beauty tips and more!
+            </p>
+            <div id="input_fleld_div">
+                <input class="inputfield" type="text" placeholder="NAME">
+                <input class="inputfield" type="text" placeholder="EMAIL">
+                <button>SUBSCRIBE</button>
+                <br><br>
+            </div>
+            <div>
+                <input type="checkbox" id="checkbox">
+                    I have read and agree to Forest Essentials
+                    <a  href="#">Terms of Conditions</a>.
+            </div>
+        </div>
+    </div>
+    <div  id="service_charac">
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/100-Ayurvedic.png" alt="" >
+            <h2>100% Ayurvedic</h2>
+            <p>Our products are certified 100% natural and inspired by Ayurveda recipes by the ministry of AYUSH. We conform to the highest quality control standards.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/Plant-Based.png" alt="" >
+            <h2>Plant Based</h2>
+            <p>We harness the power of plant extracts as a part of our commitment to using naturally effective and sustainably sourced ingredients to achieve superior results organically.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/free-shipping.png" alt="" >
+            <h2>Free shipping</h2>
+            <p>On all international orders of INR 9,999/- and above, and on all domestic orders of INR 475/- and above.</p>
+        </div>
+        <div>
+            <img src="https://images.forestessentialsindia.com/pub/media/cms_images/Complimentary-samples.png" alt="" >
+            <h2>Complimentary Samples</h2>
+            <p>Enjoy complimentary samples on your orders.</p>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <h4>SHOP</h4>
+            <ul>
+                <li><a href="">MAKEUP</a></li>
+                <li><a href="">FACIAL CARE</a></li>
+                <li><a href="">BODY CARE</a></li>
+                <li><a href=""HAIR CARE></a></li>
+                <li><a href="">MEN'S CARE</a></li>
+                <li><a href="">MOTHER & BABY CARE</a></li>
+                <li><a href="">WELLNESS</a></li>
+                <li><a href="">GIFTING</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>ABOUT</h4>
+            <ul>
+                <li><a href="">OUR PHILOSOPHY</a></li>
+                <li><a href="">SOCIAL RESPONSIBILITY</a></li>
+                <li><a href="">MEDIA & PRESS</a></li>
+                <li><a href="">POLICIES</a></li>
+                <li><a href="">TERMS</a></li>
+                <li><a href="">FAQS</a></li>
+                <li><a href="">SOUNDARYA CLUB FAQS</a></li>
+                <li><a href="">CAREERS</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>QUICK LINKS</h4>
+            <ul>
+                <li><a href="">MY ACCOUNT</a></li>
+                <li><a href="">SOUNDARYA CLUB SIGN IN</a></li>
+                <li><a href="">AYURVEDIC DOCTOR INTERACTION</a></li>
+                <li><a href="">CUSTOMIZE A CREAM</a></li>
+                <li><a href="">STORES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">OUR INGREDIENTS</a></li>
+                <li><a href="">FOREST ESSENTIALS UK</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4>SHOP</h4>
+            <p>Email:<br><a class="a" href="">service@forestessentialsindia.com</a></p>
+            <p>Phone:<br><a class="a" href="">+91-8010200666</a></p>
+            <p><a class="a" href="">Contact Us</a></p>
+            <h4>FOLLOW</h4>
+            <ul>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>  
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </ul>
+        </div>
+    </div>
+    <div id="copy_right"> 
+        <div>
+            <span>PAYMENT METHODS</span>
+            <img src="https://images.forestessentialsindia.com/pub/media/payment-method-new.png" alt="" width="500px">
+        </div>
+        <div>
+            <span>© Forest Essentials</span>
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../js/header.js"></script>

@@ -1,0 +1,272 @@
+.homepage_block_1 {
+    display: grid;
+    width:90%;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 0px;
+    text-align: center;
+    /* height: 550px; */
+    display: flex;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 50px;
+}
+
+.homepage_block_1>div {
+    padding-top: 22px;
+}
+
+.box1 {
+    background-image: url("https://images.forestessentialsindia.com/pub/media/cms_images/Pure-Fresh-Sensorial.jpg");
+    background-size: cover;
+}
+
+.box2 {
+    background-image: url("https://images.forestessentialsindia.com/pub/media/cms_images/Consciously-Crafted.jpg");
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url("https://images.forestessentialsindia.com/pub/media/cms_images/CultFormulas-Proven-Results.JPG");
+    background-size: cover;
+}
+
+.homepage_block_1 .padd {
+    padding: 10px;
+}
+
+.homepage_block_1 a ,.homepage_block_2 a{
+    padding: 15px 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.homepage_block_1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #fbf9f9;
+    grid-template-rows: 600px;
+    margin: auto;
+    /* ------------------- */
+    font-family: calibri;
+    letter-spacing: 2.8px;
+}
+
+.submain {
+    width: 85%;
+    border: 1px solid red;
+    margin: auto;
+
+}
+
+.unique {
+    width: 100%;
+    height: 75%;
+
+}
+
+.homepage_block_1 p {
+    font-size: 14px;
+    margin-bottom: 50px;
+    letter-spacing: normal;
+    font-family: sans-serif;
+
+}
+
+.homepage_block_1 p+div {
+    font-family: calibri;
+    letter-spacing: 3px;
+    margin: auto;
+    width: 290px;
+}
+
+.homepage_block_1 .letter_spacing {
+    letter-spacing: 2.8px;
+}
+
+.homepage_block_1 .heading {
+    margin: 100px auto 25px;
+    width: 200px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 2.8px;
+    font-weight: bold;
+}
+
+.homepage_block_1 .heading_2 {
+    margin: 145px auto 25px;
+}
+
+.homepage_block_1 .heading_3 {
+    margin: 53px auto 25px;
+}
+
+.homepage_block_2 {
+    width: 90%;
+    margin: auto;
+}
+
+.homepage_block_2 h1 {
+    padding-top: 20px;
+}
+
+.homepage_block_2>div {
+    padding: 12px 12px 50px 12px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.homepage_block_2>div div {
+    width: 48.5%;
+    height: 500px;
+}
+
+.homepage_block_2 .img {
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.homepage_block_2 .img1 {
+    background-image: url(https://images.forestessentialsindia.com/pub/media/cms_images/Ayurvedic-Doctor-Interactions.jpg);
+}
+
+.homepage_block_2 .img2 {
+    background-image: url(https://images.forestessentialsindia.com/pub/media/cms_images/Customized-Creams.jpg);
+}
+
+.homepage_block_2 .h3_box {
+    border: 1px solid transparent;
+    width: 80%;
+    height: 30%;
+}
+
+.homepage_block_2 .h3_box>h3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.homepage_block_1+div {
+    background-color: #fbf9f9;
+    border: 1px solid red;
+    margin-top: 150px;
+    border: 1px solid transparent;
+}
+.homepage_block_1 div{
+    border: 1px solid transparent;
+}
+.homepage_block_1+div{
+    border: 1px solid transparent;
+    margin-top: 60px;
+}
+@media only screen and (min-width:376px) and (max-width:768px) {
+.homepage_block_1{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    border: 1px solid transparent;
+    grid-template-columns: 49% 49%;
+    grid-gap: 2%;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.homepage_block_1 div{
+    border: 1px solid transparent;
+}
+.homepage_block_1>div:last-child{
+    height: 550px;
+    /* border: 1px solid red; */
+}
+.homepage_block_1+div{
+    border: 1px solid transparent;
+    padding: 10px;
+    margin-top: 40px;
+}
+.homepage_block_2{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    border: 1px solid transparent;
+}
+.homepage_block_2 h1{
+    border: 1px solid transparent;
+    /* padding-top: 20px; */
+}
+.homepage_block_2 div{
+    border: 1px solid transparent;
+}
+.homepage_block_2>h1{
+    margin: 0px;
+    padding: 0px;
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:375px) {
+.homepage_block_1{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    border: 1px solid transparent;
+    grid-template-columns: 100%;
+    grid-gap: 2%;
+    border: 1px solid transparent;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.homepage_block_1 div{
+    border: 1px solid transparent;
+}
+.homepage_block_1>div:last-child{
+    height: 550px;
+    /* border: 1px solid red; */
+}
+.homepage_block_1+div{
+    border: 1px solid transparent;
+    padding: 10px;
+    margin-top: 100px;
+}
+.homepage_block_2{
+    display: grid;
+    width: 95%;
+    margin: auto;
+    border: 1px solid transparent;
+}
+.homepage_block_2>div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    padding: 0px;
+}
+.homepage_block_2>div .img{
+    background-size: cover;
+    width: 100%;
+}
+.homepage_block_2 h1{
+    border: 1px solid transparent;
+    /* padding-top: 20px; */
+}
+.homepage_block_2 div{
+    border: 1px solid transparent;
+}
+.homepage_block_2>h1{
+    margin: 0px;
+    padding: 0px;
+}
+.ayurvedic_interaction{
+    width: 100%;
+}
+.homepage_block_2>div div {
+    width: 100%;
+    height: 500px;
+}
+}

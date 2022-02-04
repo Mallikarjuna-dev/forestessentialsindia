@@ -1,0 +1,140 @@
+/***********************************RITUAL PAGE ******************************************************************/
+
+@font-face {
+  font-family:calibre;
+  src: url("../font/CalibreLight.otf");
+}
+.ritual--page{
+	font-size:10px;
+	font-family: calibre;
+}
+
+
+.ritual__product{
+
+	 display: grid;
+	 grid-template-columns:repeat(4, 1fr);
+	 grid-gap:1em;
+	 width:93%;
+	 margin: auto;
+
+}
+
+
+.ritual--name{
+	height:33vh;
+	box-sizing:border-box;
+	text-align: center;
+	background:#fbf9f9;
+	border:1px solid transparent;
+}
+
+.ritual--name__header{
+	font-size: 35px;
+	font-weight:100;
+	letter-spacing: 3px;
+	color: #333;
+}
+
+.filter_product{
+	display:flex;
+	justify-content:center;
+	margin-top:-20px;
+
+}
+
+.filter_product div{
+	border:1px solid #eee;
+	width:20%;
+	height:5vh;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+	padding:9px 5px;
+	letter-spacing: 2px;
+	font-size: 11px;
+
+}
+
+.ritual--home_link{
+	height:12vh;
+	line-height:12vh;
+	font-size:12px;
+	letter-spacing:3px;
+	margin-left:45px;
+}
+.ritual__product > div{
+	padding:10px;
+	font-size:11px;
+	line-height:20px;
+	letter-spacing:3px;
+	background:#fbf9f9;
+	border-radius:4px;
+}
+
+
+.ritual__product > div > div{
+	margin: auto;
+}
+
+.ritual__product > div > div img{
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.ProductInfo{
+	
+	height:25vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.ProductInfo *{
+	display: block;
+}
+
+.ProductInfo span:last-child{
+	padding-left:10px;
+}
+
+.cart_bag{
+	text-align: center;
+	
+}
+
+.cart_bag p{
+	border:1px solid black;
+	margin-top:20px;
+	height:8vh;
+	line-height: 8vh;
+}
+
+
+@media screen and (max-width:768px){
+
+	.ritual--page{
+		font-size:15px;
+	}
+
+	.ritual__product{
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.ritual--name__header{
+		font-size: 30px;
+	}
+
+}
+
+@media screen and (max-width:455px){
+	.ritual--home_link p{
+		display:none;
+	}
+
+	.ritual__product{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	
+}
