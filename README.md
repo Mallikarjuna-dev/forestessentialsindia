@@ -53,7 +53,7 @@ HTML | CSS | Javascript |
 <hr/>
 
 <p>Steps to run our Website:- <strong>Just click on our deploy link to run our website</strong?</p>
-  <p>Deploy link:- <a href="https://festive-golick-9141f1.netlify.app/">https://forestessentialindiaclone.netlify.app</a></p>
+  <p>Deploy link:- <a href="https://festive-golick-9141f1.netlify.app/">Click Here</a></p>
   
 <br/>
   
