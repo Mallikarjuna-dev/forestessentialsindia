@@ -19,10 +19,10 @@ HTML | CSS | Javascript |
 <li>Developed the Homepage.</li>
  <h3>Contributors:</h3>
   <ul>
-    <li>Deepanshu gulia</li>
-    <li>Vijendra saini</li>
+    <li>Deepanshu Gulia</li>
+    <li>Mallikarjuna Annigeri</li>
+    <li>Vijendra Saini</li>
     <li>Shilpa</li>
-    <li>Mallikarjuna anigeri</li>
   </ul>
  <h3>Screenshots</h3>
   
@@ -53,7 +53,7 @@ HTML | CSS | Javascript |
 <hr/>
 
 <p>Steps to run our Website:- <strong>Just click on our deploy link to run our website</strong?</p>
-  <p>Deploy link:- <a href="https://forestessentialindiaclone.netlify.app">https://forestessentialindiaclone.netlify.app</a></p>
+  <p>Deploy link:- <a href="https://festive-golick-9141f1.netlify.app/">https://forestessentialindiaclone.netlify.app</a></p>
   
 <br/>
   
